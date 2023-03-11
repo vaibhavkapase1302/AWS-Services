@@ -15,7 +15,7 @@
 aws --version
 ```
 
-## S3 Section:
+# S3 Section:
 
 Available Commands
 [Documantation link](https://docs.aws.amazon.com/cli/latest/reference/s3/)
