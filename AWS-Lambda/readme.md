@@ -1,5 +1,6 @@
 # AWS Lambda:
 
+### Event structure for S3
 ```js
 
 import json def lambda_handler(event, context):
