@@ -5,3 +5,10 @@
 * The template file contains the configuration and properties for the AWS resources you want to create. 
 * Once you have defined your template, you can use CloudFormation to create, update, or delete your resources.
 * Overall, AWS CloudFormation helps you manage your infrastructure more efficiently and with greater consistency by treating it as code.
+
+## Yaml code for S3
+```js
+jj
+```
+
+## 
