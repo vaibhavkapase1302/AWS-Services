@@ -6,7 +6,7 @@
 * Once you have defined your template, you can use CloudFormation to create, update, or delete your resources.
 * Overall, AWS CloudFormation helps you manage your infrastructure more efficiently and with greater consistency by treating it as code.
 
-[Link text](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
+[AWS CloudFormation Documantation Link](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 
 
 ## Yaml code for S3
