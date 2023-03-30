@@ -9,6 +9,17 @@
 
 [link for Download](https://awscli.amazonaws.com/AWSCLIV2.msi)
 
+### AWS Using CLI
+```js
+aws configure
+```
+
+```js
+e.g.
+AWS Access Key ID [None]: AKIATLRFSHVP5CUSK6KZ
+AWS Secrete Access Key [None]: Fg3tJYOBuSCARII16wmTBbIhvtuFfclv3jJFPN+X
+```
+
 2. To confirm the installation, open the Start menu, search for cmd to open a command prompt window, and at the command prompt use the aws --version command.
 
 ```js
