@@ -27,6 +27,13 @@ AWS Access Key ID [None]: AKIATLRFSHVP5CUSK6KZ
 AWS Secrete Access Key [None]: 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
 ```
 
+## AWS CloudShell
+* Cloud Shell is a web-based command-line interface (CLI) that provides a secure and managed environment for interacting with your AWS resources. 
+* It runs on AWS infrastructure, so you don't have to worry about configuring any local software or managing any servers.
+* Overall, Cloud Shell is a convenient and powerful tool for managing your AWS resources, especially if you prefer working with the CLI or need to automate tasks in your environment.
+
+
+
 # S3 Section:
 
 Available Commands
