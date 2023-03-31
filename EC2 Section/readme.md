@@ -26,4 +26,5 @@ systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 ### Apache Web Server:
-
+* Apache is a free and open-source web server that delivers web content through the internet1. It helps in establishing a connection between a server and the browsers of website visitors (Firefox, Google Chrome, Safari, etc.) while delivering files back and forth between them (client-server structure)2.
+* In AWS, User data is user data/commands that you can specify at the time of launching your instance. These data/command executes after your EC2 instance starts. You don’t need to SSH into your EC2 instance and run those command one by one3. You can use EC2 User Data Script to Install Apache Web Server3.
