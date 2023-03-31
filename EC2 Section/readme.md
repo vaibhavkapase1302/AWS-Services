@@ -20,6 +20,9 @@
 
 ## User Data:
 
+* When you create an EC2 instance in AWS, you can install the Apache web server on it and use it to serve your web content. User data in AWS refers to the information that you can provide to an EC2 instance when you launch it, such as scripts or commands that you want to run when the instance starts up. 
+* This user data can be used to automate the configuration and setup of the EC2 instance, including the installation and configuration of Apache and any other software that you need to run your web applications.
+
 ```js
 #!/bin/bash
 # Use this for your user data (script from top to bottom)
