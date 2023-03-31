@@ -9,3 +9,8 @@
 3. Distributing load across machines (ELB)
 4. Scaling the services using an auto-scaling group (ASG)
 
+### EC2 Instance Connect:
+* By using SSH:
+* By using RDP Client:
+
+
