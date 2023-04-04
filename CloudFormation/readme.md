@@ -16,7 +16,7 @@
 
 ### How CloudFormation Works?
 <!-- ![T](https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png) -->
-<img src="[https://github.com/github.png](https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png)" alt="GitHub Logo" width="200" height="200">
+<img src="https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png" alt="GitHub Logo" width="200" height="200">
 
 
 ## Yaml code for S3
