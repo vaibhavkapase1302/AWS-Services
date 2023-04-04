@@ -18,6 +18,19 @@
 <!-- ![T](https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png) -->
 <img src="https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png" alt="GitHub Logo" width="800" height="500">
 
+###
+Components of Template:
+* Format Version 
+* Description
+* Metadata
+* Parameters
+* Rules
+* Mappings
+* Conditions
+* Transform
+* Resources
+
+
 
 ## Yaml code for S3
 ```js
