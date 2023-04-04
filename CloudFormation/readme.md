@@ -29,8 +29,9 @@
 * Transform
 * Resources
 
-Parameters:
-
+🏷️ Parameters: These are user-defined values that can be passed to the template at runtime to customize resource creation.
+🏷️ Resources: These are the AWS resources that are created and configured by the CloudFormation template, such as EC2 instances, S3 buckets, and DynamoDB tables.
+🏷️ Outputs: These are values that are returned by the CloudFormation stack after it is created, such as the URL of a load balancer or the ID of a newly created EC2 instance.
 
 ## Yaml code for S3
 ```js
