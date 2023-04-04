@@ -15,6 +15,7 @@
 
 
 ### How CloudFormation Works?
+![T](https://github.com/vaibhavkapase1302/AWS-Services/blob/main/CloudFormation/How%20CloudFormation%20Works.png)
 
 
 
