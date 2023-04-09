@@ -13,7 +13,7 @@
 * Templates in CloudFormation provide a way to create and manage AWS resources in a repeatable and automated way, allowing for easy deployment and management of complex systems. 
 * CloudFormation uses these templates as blueprints for building your AWS resources.
 
-### Stack:
+## Stack:
 In AWS CloudFormation, a stack is a collection of AWS resources that you can manage as a single unit.
 * For example, suppose you want to create a web application that consists of an EC2 instance, an S3 bucket for storing static content, and an RDS database for storing dynamic data. You can use CloudFormation to create a stack that includes all of these resources, with their respective configurations. You can then manage the stack as a single unit, making it easier to create, update, and delete your web application as needed.
 
