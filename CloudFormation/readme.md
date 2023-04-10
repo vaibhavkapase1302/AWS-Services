@@ -32,13 +32,29 @@ In AWS CloudFormation, a stack is a collection of AWS resources that you can man
 * Transform
 * Resources
 
+## Yaml code for S3
+```yml
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-bucket
+
+  MyTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: my-topic
+```
+
 #### 🏷️ Parameters: These are user-defined values that can be passed to the template at runtime to customize resource creation.
 #### 🏷️ Resources: These are the AWS resources that are created and configured by the CloudFormation template, such as EC2 instances, S3 buckets, and DynamoDB tables.
+* In a CloudFormation template, Resources: is a top-level section that defines the AWS resources that you want to create or manage. 
+* This section is required in every CloudFormation template and is used to declare the resources that will be created, updated or deleted during stack creation or stack update.
+
+Here's an example of a CloudFormation template that defines two resources, an Amazon S3 bucket and an Amazon SNS topic:
+
 #### 🏷️ Outputs: These are values that are returned by the CloudFormation stack after it is created, such as the URL of a load balancer or the ID of a newly created EC2 instance.
 
-## Yaml code for S3
-```js
-jj
-```
+
 
 ## 
