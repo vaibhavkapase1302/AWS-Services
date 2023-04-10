@@ -5,3 +5,5 @@
 It offers two types of queues: 
 1)  Standard Queue:
 2) FIFO (First-In-First-Out) Queue
+
+AWS SQS also integrates with other AWS services such as AWS Lambda, AWS EC2, AWS SNS, and AWS S3, making it a versatile messaging platform that can be used in a wide range of use cases, including application decoupling, event-driven architecture, and asynchronous processing of workloads.
