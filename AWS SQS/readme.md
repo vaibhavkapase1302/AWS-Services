@@ -14,3 +14,5 @@ AWS SQS also integrates with other AWS services such as AWS Lambda, AWS EC2, AWS
 *   Messages in a queue are stored until they are consumed by a consumer or deleted.
 
 A queue can be thought of as a buffer or a waiting area for messages. When a producer sends a message to a queue, the message is stored in the queue until a consumer retrieves it. The messages in a queue are processed in a first-in, first-out (FIFO) order by default, although this behavior can be modified for certain use cases.
+
+##  dead-letter queues
