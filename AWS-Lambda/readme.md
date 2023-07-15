@@ -1,4 +1,6 @@
 # AWS Lambda:
+### Hand Written Notes:
+<a href="https://github.com/vaibhavkapase1302/AWS-Services/blob/main/AWS%20Fundamentals.pdf">AWS lambda Hand Written Notes
 
 ### Event structure for S3
 ```js
