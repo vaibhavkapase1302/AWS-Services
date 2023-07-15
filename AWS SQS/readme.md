@@ -1,4 +1,7 @@
 # SQS
+### Hand Written Notes:
+<a href="https://github.com/vaibhavkapase1302/AWS-Services/blob/main/AWS%20SQS/AWS%20SQS%20by%20Vaibhav.pdf">AWS SQS Hand Written Notes
+
 * AWS SQS (Amazon Simple Queue Service) is a fully managed message queuing service offered by Amazon Web Services.
 *  It allows applications to send, store, and receive messages between software components or microservices, without the need for those components to be running at the same time.
 
