@@ -1,3 +1,5 @@
+A regularly updated repository containing folders for each AWS service, providing comprehensive information and resources for efficient AWS service exploration and utilization.
+
 # AWS-Services
 <img src="https://github.com/vaibhavkapase1302/AWS-Services/blob/main/AWS%20Logo.png" width="600" height="280" alt="AWS lOGO">
 
