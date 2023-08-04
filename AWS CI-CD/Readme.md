@@ -1,2 +1,2 @@
-AWS CI/CD 
-Code Commit and Code Intergration
+AWS CI/CD:
+Code Commit and Code Integration
