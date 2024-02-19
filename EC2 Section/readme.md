@@ -19,6 +19,10 @@ Private key file format
 - .pem [ For use with OpenSSH ]
 - .ppk [ For use with PuTTY ]
  
+### Security Groups
+Security groups act as a firewall for associated instances, controlling both inbound and outbound traffic at the instance level.
+- Inbound rules [ Incomming Traffic ]
+- Outbound rules [ Outgoing Traffic ]
 
 ### EC2 Instance Connect:
 * By using SSH:
