@@ -10,6 +10,16 @@
 3. Distributing load across machines (ELB)
 4. Scaling the services using an auto-scaling group (ASG)
 
+### Key Pair
+AWS uses public-key cryptography to secure the login information for your instance.
+- RSA 
+- ED25519 [ Not Supported by Windows ]
+
+Private key file format
+- .pem [ For use with OpenSSH ]
+- .ppk [ For use with PuTTY ]
+ 
+
 ### EC2 Instance Connect:
 * By using SSH:
 * By using RDP Client:
