@@ -41,6 +41,8 @@ Various configurations of CPU, memory, storage, networking capacity, and graphic
 - Compute optimized instances
 - Memory optimized instances
 - Storage optimized instances
+- Accelerated computing
+- High-performance computing
 
 e.g. t2.micro
 
