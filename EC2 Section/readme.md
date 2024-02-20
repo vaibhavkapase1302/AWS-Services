@@ -46,6 +46,14 @@ Various configurations of CPU, memory, storage, networking capacity, and graphic
 
 e.g. t2.micro
 
+Instance purchasing options:
+- On-Demand Instances
+- Savings Plans
+- Reserved Instances
+- Spot Instances
+- Dedicated Hosts
+- Dedicated Instances
+
 ### Amazon EBS volumes
 Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS).
 
