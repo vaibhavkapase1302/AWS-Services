@@ -27,6 +27,14 @@ Security groups act as a firewall for associated instances, controlling both inb
 ### Amazon Machine Images (AMIs)
 Preconfigured templates for your instances that package the components you need for your server (including the operating system and additional software).
 
+following requirements:
+- The Region – AMI IDs are unique to each AWS Region.
+- The operating system
+- The architecture: 32-bit (i386), 64-bit (x86_64), or 64-bit ARM (arm64)
+- The root device type: Amazon EBS or instance store
+- The provider (for example, Amazon Web Services)
+- Additional software (for example, SQL Server)
+
 ### Instance types
 Various configurations of CPU, memory, storage, networking capacity, and graphics hardware for your instances.
 - t2.micro [ ]
