@@ -41,7 +41,7 @@ Various configurations of CPU, memory, storage, networking capacity, and graphic
 - Compute optimized instances
 - Memory optimized instances
 - Storage optimized instances
-- 
+
 e.g. t2.micro
 
 ### Amazon EBS volumes
