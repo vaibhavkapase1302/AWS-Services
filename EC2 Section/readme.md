@@ -24,6 +24,16 @@ Security groups act as a firewall for associated instances, controlling both inb
 - Inbound rules [ Incomming Traffic ]
 - Outbound rules [ Outgoing Traffic ]
 
+### Amazon Machine Images (AMIs)
+Preconfigured templates for your instances that package the components you need for your server (including the operating system and additional software).
+
+### Instance types
+Various configurations of CPU, memory, storage, networking capacity, and graphics hardware for your instances.
+- t2.micro [ ]
+
+### Amazon EBS volumes
+Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS).
+
 ### EC2 Instance Connect:
 * By using SSH:
 * By using RDP Client:
