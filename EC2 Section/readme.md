@@ -37,7 +37,11 @@ following requirements:
 
 ### Instance types
 Various configurations of CPU, memory, storage, networking capacity, and graphics hardware for your instances.
-- t2.micro [ ]
+- General purpose instances
+- Compute optimized instances
+- Memory optimized instances
+- Storage optimized instances
+e.g. t2.micro
 
 ### Amazon EBS volumes
 Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS).
