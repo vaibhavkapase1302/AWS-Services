@@ -90,6 +90,7 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
+
 ## For the windows Instace
 
 We can  connect the Windows Instance throgh **RDP Client**
@@ -97,3 +98,13 @@ We can  connect the Windows Instance throgh **RDP Client**
 When we get this error:
 
 <img src= "https://github.com/vaibhavkapase1302/AWS-Services/blob/main/EC2%20Section/Screenshot%20(488).png" alt="AWS EC2 Logo">
+
+There are mulltiple reasons: How to Resolve Remote Desktop connection Error to connect on network ?  
+
+https://youtu.be/KClNOjHkqL0?si=87gcR4WPO0w_EqpF
+
+https://youtu.be/LznVlHNZWmk?si=_Ml8-zDQhObi7vyI
+
+- To connect windows through RDP we need to **Enable Public IP** whilw creating the instance.
+- We have to use the **Public Subnet** to create the Windows Instance. Those who are in the VPC.
+- While connecting with the Remote Desktop **Local set-up** should be completed like FRemote Desktop option enable and RDP Port no. for Local machine should be **3389** etc
