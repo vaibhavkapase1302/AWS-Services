@@ -108,3 +108,7 @@ https://youtu.be/LznVlHNZWmk?si=_Ml8-zDQhObi7vyI
 - To connect windows through RDP we need to **Enable Public IP** whilw creating the instance.
 - We have to use the **Public Subnet** to create the Windows Instance. Those who are in the VPC.
 - While connecting with the Remote Desktop **Local set-up** should be completed like FRemote Desktop option enable and RDP Port no. for Local machine should be **3389** etc
+
+For specific version type: Windows10, Windows11
+
+AWS doesn't provide a direct Windows 10 AMI in its public catalog, we will proceed with the assumption that you either have a custom Windows 10 AMI or will use a Windows Server AMI.
