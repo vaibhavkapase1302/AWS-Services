@@ -90,3 +90,10 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
+## For the windows Instace
+
+We can  connect the Windows Instance throgh **RDP Client**
+
+When we get this error:
+
+<img src= "https://github.com/vaibhavkapase1302/AWS-Services/blob/main/EC2%20Section/Screenshot%20(488).png" alt="AWS EC2 Logo">
