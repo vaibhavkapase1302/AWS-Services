@@ -56,6 +56,6 @@ Destination: sg-memorydb (Security Group ID of your MemoryDB cluster)
 ```
 
 - **Install Redis CLI on EC2 Instance:** https://www.tecmint.com/install-redis-in-rhel-8/
-- **Connect to the MemoryDB Cluster:**
+- **Connect to the MemoryDB Cluster:** https://docs.aws.amazon.com/memorydb/latest/devguide/getting-startedclusters.connecttonode.html
 
 
