@@ -31,9 +31,11 @@ A shard is a hierarchical arrangement of nodes, each wrapped in a cluster. Shard
 
 Steps to Access the Cluster
 - **Verify VPC and Subnet Configuration:** Ensure that the MemoryDB cluster and the EC2 instance are in the same VPC or have VPC peering if they are in different VPCs. Verify that the subnet associated with the EC2 instance is part of the subnet group associated with the MemoryDB cluster.
-- **Security Group Configuration:** Ensure that the security group **associated with your MemoryDB cluster** allows inbound traffic on the Redis port (default is 6379) from the security group associated with your EC2 instance.
-Ensure that the security group **associated with your EC2 instance** allows outbound traffic on the Redis port (default is 6379).
+- **Security Group Configuration:** 
 1. MemoryDB Security Group: Inbound Rule: Allow traffic on port 6379 from the EC2 instance's security group.
+
+Ensure that the security group **associated with your MemoryDB cluster** allows inbound traffic on the Redis port (default is 6379) from the security group associated with your EC2 instance.
+
 e.g.
 ```sh
 Type: Custom TCP
@@ -42,6 +44,9 @@ Port range: 6379
 Source: sg-ec2-instance (Security Group ID of your EC2 instance)
 ```
 2. EC2 Security Group: Outbound Rule: Allow traffic on port 6379.
+
+Ensure that the security group **associated with your EC2 instance** allows outbound traffic on the Redis port (default is 6379).
+
 e.g. 
 ```sh
 Type: Custom TCP
