@@ -71,6 +71,9 @@ redis-cli -h clustercfg.demo-cluster.vkynzv.memorydb.ap-south-1.amazonaws.com --
 ```
 
 -h: Specifies the host of the MemoryDB cluster, which is the primary or configuration endpoint.
+
 --tls: Enables TLS encryption for the connection.
+
 -a: Provides the password for authentication.
+
 -p: Specifies the port number (6379 for Redis).
