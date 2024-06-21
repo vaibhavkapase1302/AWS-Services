@@ -58,4 +58,19 @@ Destination: sg-memorydb (Security Group ID of your MemoryDB cluster)
 - **Install Redis CLI on EC2 Instance:** https://www.tecmint.com/install-redis-in-rhel-8/
 - **Connect to the MemoryDB Cluster:** https://docs.aws.amazon.com/memorydb/latest/devguide/getting-startedclusters.connecttonode.html
 
+To connect to a cluster with encryption and authentication enabled, enter this command:
 
+```sh
+redis-cli -h Primary or Configuration Endpoint --tls -a 'your-password' -p 6379
+```
+
+e.g. 
+
+```sh
+redis-cli -h clustercfg.demo-cluster.vkynzv.memorydb.ap-south-1.amazonaws.com --tls -a 'mySecurePassword' -p 6379
+```
+
+-h: Specifies the host of the MemoryDB cluster, which is the primary or configuration endpoint.
+--tls: Enables TLS encryption for the connection.
+-a: Provides the password for authentication.
+-p: Specifies the port number (6379 for Redis).
