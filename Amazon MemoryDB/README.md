@@ -26,3 +26,14 @@ A node is the smallest building block of a MemoryDB deployment and runs using an
 **shard**
 
 A shard is a hierarchical arrangement of nodes, each wrapped in a cluster. Shards support replication. Within a shard, one node functions as the read/write primary node. All the other nodes in a shard function as read-only replicas of the primary node. MemoryDB supports multiple shards within a cluster. This support enables partitioning of your data in a MemoryDB cluster.
+
+**To access your MemoryDB for Redis cluster from an EC2 instance**
+
+Steps to Access the Cluster
+- Verify VPC and Subnet Configuration: Ensure that the MemoryDB cluster and the EC2 instance are in the same VPC or have VPC peering if they are in different VPCs. Verify that the subnet associated with the EC2 instance is part of the subnet group associated with the MemoryDB cluster.
+- Security Group Configuration: Ensure that the security group associated with your MemoryDB cluster allows inbound traffic on the Redis port (default is 6379) from the security group associated with your EC2 instance.
+Ensure that the security group associated with your EC2 instance allows outbound traffic on the Redis port (default is 6379).
+- Install Redis CLI on EC2 Instance:
+- Connect to the MemoryDB Cluster:
+
+
