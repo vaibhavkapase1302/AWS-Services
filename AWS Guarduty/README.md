@@ -1,5 +1,15 @@
 AWS Guarduty:
 
+Amazon GuardDuty is a threat detection service that continuously monitors, analyzes, and processes specific AWS data sources and logs in your AWS environment. GuardDuty uses threat intelligence feeds, such as lists of malicious IP addresses and domains, and machine learning (ML) models to identify unexpected, and potentially unauthorized activity in your AWS environment. 
+
+This includes the following issues:
+
+- Escalation of privileges, use of exposed credentials, or communication with malicious IP addresses and domains.
+
+- Presence of malware on your Amazon EC2 instances and container workloads, and newly uploaded files in your Amazon S3 buckets.
+
+- Discovery of unusual patterns of login events on your database.
+
 https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-active.html
 
 **Finding types**
