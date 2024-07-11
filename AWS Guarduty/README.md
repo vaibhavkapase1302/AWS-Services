@@ -1,5 +1,7 @@
 AWS Guarduty:
 
+https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-active.html
+
 **Finding types**
 
 DefenseEvasion:EC2/UnusualDoTActivity:
